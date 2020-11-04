@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  background-color: #8dc63f;
+  font-family: Arial, sans-serif;
+}
+.clear:after{
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+.wrapper{
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 960px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.header{
+  padding: 25px 0;
+}
+.logo{
+  float: left;
+}
+.logo p, 
+.phone-number p{
+  margin: 0;
+  font-size: 22px;
+  color: #39930d;
+}
+.logo, 
+.logo p, 
+.logo img{
+  float: left;
+}
+.logo b{
+	display: block;
+  font-size: 44px;
+}
+.logo i, 
+.phone-number i{
+  display: block;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+.logo img{
+  margin-left: 35px;
+}
+.logo img:hover{
+  padding-left: 200px;
+  transition: all 1s ease;
+}
+.phone-number{
+  float: right;
+}
+.phone-number i{
+  text-align: right;
+}
+.slider{
+  width: 100%;
+}
+.main{
+  margin-bottom: 45px;
+}
+.content{
+  float: left;
+  max-width: 600px;
+}
+.content h1{
+  font-size: 24px;
+  color: #39930d;
+}
+.content p{
+  font-size: 14px;
+  line-height: 21px;
+  color: #343434;
+}
+.menu{
+  float: right;
+  width: 300px;
+}
+.menu p{
+  padding: 15px 20px 10px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #39930d;
+}
+.menu ul{
+  padding-left: 20px;
+  list-style: none;
+}
+.menu a{
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #39930d;
+  transition: all .5s ease;
+}
+.menu a:hover{
+  background-color:gray;
+  display: block;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+}
+.footer{
+  margin: 0 -15px;
+  padding: 15px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #39930d;
+}
