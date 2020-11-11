@@ -29,6 +29,7 @@ body{
   color: #39930d;
 }
 .phone-number span{
+  display: block;
   margin-bottom: 10px;
 }
 .logo, 
