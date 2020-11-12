@@ -29,7 +29,7 @@ body{
   color: #39930d;
 }
 .phone-number span{
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
 }
 .logo, 
@@ -98,7 +98,6 @@ body{
   text-transform: uppercase;
   line-height: 30px;
   color: #39930d;
-  transition: all .5s ease;
 }
 .menu a:hover{
   background-color:grey;
@@ -106,6 +105,7 @@ body{
   color: #fff;
   padding: 20px;
   text-decoration: none;
+  transition: all .5s ease;
 }
 .footer{
   margin: 0 -15px;
